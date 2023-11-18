@@ -1,0 +1,89 @@
+.name {
+  display: inline-block;
+  height: 100px;
+  padding: 20px;
+  margin-bottom: 40px;
+
+
+}
+
+.item {
+  margin-left: 20 px;
+}
+
+.after {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+
+.container {
+
+  padding: 20px;
+  margin-left: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  background-color: rgb(223, 220, 220);
+}
+
+.contacts {
+  margin-left: 20px;
+}
+
+/* Свойства ссылок */
+a {
+  display: block;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 1.2em;
+  position: relative;
+}
+
+/* Что делать при наведении на ссылку */
+a:hover {
+  color: darkred;
+}
+
+/* Этим свойством добавляем подчеркивание через создание псевдокласса */
+a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  transform: translateY(1.5em);
+  border-bottom: 1px solid #dadada;
+  width: 300px;
+}
+
+h1 {
+  font-size: 40px;
+
+}
+
+h2 {
+  font-size: 1.5em;
+  margin: 1.25em 0;
+  font-family: Roboto, sans-serif;
+}
+
+/* Свойства фотографии*/
+
+.photo2 {
+  border-radius: 100%;
+  /* Радиус скругления */
+  border: px solid transparent;
+  /* Параметры рамки */
+  box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.52);
+  object-fit: cover;
+}
+
+/* Эффект наведения на картинку */
+.photo2:hover {
+  border: 3px solid #d3512a;
+
+  .slovar {
+    margin: 20px;
+  }
+
+  .slovar {
+    padding: 100px;
+  }
